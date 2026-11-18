@@ -38,7 +38,43 @@
 # print(f"{0.132} {0.132:e}")
 # print(f"아샘{coding}학원")
 num1=17
-print(num1)
-print("10진수 17 = {0}".format(num1))
-print("10진수 17의 8진수 = {0:o}".format(num1))
-print("10진수 17의 16진수 = {0:x}".format(num1))
+
+# print(num1)
+# print("10진수 17 = {0}".format(num1))
+# print("10진수 17의 8진수 = {0:o}".format(num1))
+# print("10진수 17의 16진수 = {0:x}".format(num1))
+# print(f">{'abc':5s}<")
+# print(f">{3.141592:6.2f}<")
+# print("48 > %d %o" % (48,48),end="")
+# print("48, > %x %c" % (48,48))
+# print("%c %c" % (65,0x41))
+# print("%f %e" % (0.132, 0.132))
+# print("이샘%s학원" % ("코딩"))
+# print(f"48 > {number} {number:o}")
+# print(f"48 > {number:x} {number:c}")
+# print(f"{hexA} {hexA:c}")
+# print(f"{hexA} {hexA:c}")
+# print(f"{0.132} {0.132:e)")
+# print(f"이샘{coding}학원")
+# r = 5
+# pi = 3.14
+# area=r*r*pi
+# print('넓이는 %d* %d* %.2f= %.1f'%(r,r,pi,area))
+# r=5
+# pi=3.14
+# area=r*r*pi
+# # print('넓이는 {0}* {0}* {1}={2}'.format(r,pi,area))
+# print(f'넓이는 {r}* {r}* {pi}= {area}')
+# h=1.61804
+# print(f'소수 첫째 자리까지 출력 : {h :.1f} ')
+# print(f'소수 둘째 자리까지 출력 : {h :.2f}')
+# print(f'소수 셋째 자리까지 출력 : {h :.3f}')
+# print(f'소수 넷째 자리까지 출력 : {h :.4f}')
+
+# hello = input('인사를 적어보자')
+# print(hello)
+in1 = input('반지름의 길이는? : ')
+r = int(in1)
+pi = 3.14
+area=r*r*pi
+print('넓이는 %d* %d* %.2f= %.1f'%(r,r,pi,area))
